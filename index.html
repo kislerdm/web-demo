@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Priceloop Price Optimizer Analytics</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<html lang="en">
+<div id="PlotDynamics"></div>
+<div id="PlotValue"></div>
+
+<div class="per-item">
+    <label for="sku">Select item's SKU</label>
+    <select name="sku" id="sku" onchange=getSku()>
+        <option value="xxxx" selected="selected">xxxx</option>
+        <option value="yyyy">yyyy</option>
+        <option value="zzzz">zzzz</option>
+    </select>
+    <div id="PlotValueItem"></div>
+</div>
+
+<script src="./src/chart.js"></script>
+
+</html>
